@@ -10,7 +10,7 @@ body {
 
 #header {
   font-family: Helvetica, Arial, sans-serif;
-  background: #456;
+  background: #456 -webkit-gradient(linear, left top, left bottom, from(#678), to(#000));
   text-align: center;
   color: #eef;
   font-size: 2.5em;
