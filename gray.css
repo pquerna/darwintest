@@ -4,11 +4,12 @@ html, body {
 }
 
 body {
-  font-family:"lucida sans unicode",lucida grande,sans-serif;
+  font-family:"lucida sans unicode", lucida grande, Helvetica, Arial, sans-serif;
   background-color: #fff;
 }
 
 #header {
+  font-family: Helvetica, Arial, sans-serif;
   background: #456;
   text-align: center;
   color: #eef;
