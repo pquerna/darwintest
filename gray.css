@@ -9,7 +9,7 @@ body {
 }
 
 #header {
-  background: #9ab;
+  background: #456;
   text-align: center;
   color: #eef;
   font-size: 2.5em;
@@ -44,9 +44,9 @@ p {
   float: right;
   padding: 1em;
   margin: 1em 2em 1em 1em;
-  border: solid #9ab 3px;
+  border: solid #456 3px;
   -moz-border-radius: 4;
-/*  -webkit-border-radius: 4; */
+  -webkit-border-radius: 4;
   text-align: center;
   width: 350;
   -webkit-box-shadow: 1px 1px 8px 3px rgba(50, 50, 40, 0.7);
