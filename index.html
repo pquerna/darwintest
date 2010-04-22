@@ -1,4 +1,14 @@
 <html>
+<!-- 
+This site is intended to be a lesson for people who are susceptible to getting phished. The goal here is for no credit card information to ever be sent across the wire. There are a few things to accomplish this:
+
+- There are two forms. One for the credit card info and one for the submit button. That way, clicking on the submit button doesn't submit any credit card info.
+- If someone hits enter while one of the credit card info inputs is focused, the browser will try to submit the form. To stop this, the onsubmit for the credit card form calls got_to_check_page(), which changes window.location.href to the "you have failed the test" page.
+- Unfortunately, if someone has JavaScript disabled and hits enter, there's nothing we can do. To mitigate this, we want to only allow https. That means getting an ssl cert. 
+
+Godaddy was smart enough to detect some evil keywords in the domain and require a human being to look at the site. If you are reading this, Godaddy: Our intention is to educate and inform people of phishing, in a particularly memorable way.
+
+ -->
 <head>
   <title>Is Your Credit Card Stolen? Check for free!</title>
   <link rel="stylesheet" href="gray.css" type="text/css" />
