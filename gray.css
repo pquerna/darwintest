@@ -8,6 +8,14 @@ body {
   background-color: #fff;
 }
 
+a {
+  color: #006;
+}
+
+a:visited {
+  color: #008;
+}
+
 #header {
   font-family: Helvetica, Arial, sans-serif;
   background: #234;
@@ -24,6 +32,12 @@ body {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#links {
+  padding-left: 0px;
+  margin-left: 0px;
+  text-align: center;
 }
 
 p {
@@ -68,4 +82,8 @@ td.label {
 ul {
   width: 65%;
   margin: 1em 1em 1em 4em;
+}
+
+li {
+  margin: 12px 0; /* Thanks to nfriedly on HN for this */
 }
