@@ -1,0 +1,150 @@
+<html>
+<!-- 
+
+This site is intended to be a lesson for people who are susceptible to getting 
+phished. The goal here is for no credit card information to ever be sent across 
+the wire. To accomplish this, all credit card info is outside the form. That 
+way, clicking on the submit button doesn't submit any credit card info.
+
+Godaddy was smart enough to detect some evil keywords in the domain and require 
+a human being to look at the site. If you are reading this, Godaddy: Our 
+intention is to educate and inform people of phishing, in a particularly 
+memorable way:
+  http://ismycreditcardstolen.com/anti-phishing.jpg
+
+BTW there is no form validation so just click the submit button if you want to 
+see the "you have failed" message, visible here:
+  http://ismycreditcardstolen.com/check.html
+
+ -->
+<head>
+  <title>Is Your Credit Card Stolen? Check for free!</title>
+  <link rel="stylesheet" href="gray.css" type="text/css" />
+</head>
+<body>
+<h1 id="header">Free! Check if your credit card has been stolen!</h1>
+<div id="content">
+<p style="width: 350; float: left;">
+If you fear your credit card info has been stolen, enter it here and you can find out for <strong>free</strong>. Avoiding fraud has never been easier!
+</p>
+<div id="card_form">
+<table>
+  <tr>
+    <td class="label"><label for="card_number">Credit card number</label></td>
+    <td>
+      <input type="text" name="card_number" id="card_number" size="25" autocomplete="off">
+    </td>
+  </tr>
+  <tr>
+    <td class="label"><label for="card_name">Name on credit card</label></td>
+    <td>
+      <input type="text" name="card_name" id="card_name" size="25" maxlength="40" value="" autocomplete="off">
+    </td>
+  </tr>
+  <tr>
+    <td class="label">Expiration Date</td>
+    <td>
+      <select name="month" title="Month" id="card_month">
+        <option value="01" selected="selected">
+          01
+        </option>
+        <option value="02">
+          02
+        </option>
+        <option value="03">
+          03
+        </option>
+        <option value="04">
+          04
+        </option>
+        <option value="05">
+          05
+        </option>
+        <option value="06">
+          06
+        </option>
+        <option value="07">
+          07
+        </option>
+        <option value="08">
+          08
+        </option>
+        <option value="09">
+          09
+        </option>
+        <option value="10">
+          10
+        </option>
+        <option value="11">
+          11
+        </option>
+        <option value="12">
+          12
+        </option>
+      </select>&nbsp;/&nbsp;<select name="card_year" title="Year" id="card_year">
+        <option value="2012" selected="selected">
+          2012
+        </option>
+        <option value="2013">
+          2013
+        </option>
+        <option value="2014">
+          2014
+        </option>
+        <option value="2015">
+          2015
+        </option>
+        <option value="2016">
+          2016
+        </option>
+        <option value="2017">
+          2017
+        </option>
+        <option value="2018">
+          2018
+        </option>
+        <option value="2019">
+          2019
+        </option>
+        <option value="2020">
+          2020
+        </option>
+        <option value="2021">
+          2021
+        </option>
+        <option value="2022">
+          2022
+        </option>
+      </select>
+    </td>
+  </tr>
+</table>
+<!-- Start form here so credit card details aren't submitted. -->
+<form action="check.html">
+  <input type="submit" value="Check if my credit card is stolen">
+</form>
+</div>
+<p id="links">
+  <a href="about.html">About</a>
+</p>
+<p id="secure" style="padding-bottom: 0px;-webkit-box-reflect:below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white));" >
+<img src="lock_icon.png" />
+Verified Secure
+<img src="green_check.png" />
+<!-- wouldn't want to use a visa logo without permission from Visa would we... -->
+<!-- <img style="padding-left: 2em;" src="vbvleftnavverified.gif" /> -->
+<!--<img src="wesnoth_shield.png" />-->
+</p>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16013539-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
